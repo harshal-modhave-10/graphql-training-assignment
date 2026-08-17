@@ -35,20 +35,20 @@ If both commands return a version number, the required environment is ready.
 
 ## Getting Started
 
-### 1. Clone the repository
+### 1. Fork and clone the repository
 
-Clone the starter repository to your local machine:
+First, fork the provided GitHub repository to your GitHub account.
+
+After forking the repository, clone your forked repository to your local machine:
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone <YOUR_FORKED_REPOSITORY_URL>
 ```
-
 Navigate to the project directory:
 
-```bash
+```
 cd graphql-training-assignment
 ```
-
 ---
 
 ### 2. Install dependencies
@@ -358,6 +358,39 @@ Contains the mock data used by the GraphQL server.
 
 Follow the submission requirements provided in the GraphQL training assignment document.
 
-Make sure that your submission demonstrates the successful execution of the required queries, mutations, relationships, variables, and fragments through appropriate screenshots.
+### Pull Request Submission
 
-If code changes are required as part of the assignment, commit your changes to your assigned branch and share the branch/PR details as instructed by the trainer.
+Fork the provided GitHub repository and clone your forked repository to your local machine.
+
+Create a separate branch for the assignment using the following naming convention:
+
+```text
+<employee_id>_<name>
+
+For example:
+12345_harshal_modhave
+```
+
+Complete and test the assignment locally, then commit and push your changes to your forked repository.
+
+Create a Pull Request from your assignment branch to the main branch of the provided training repository.
+
+The Pull Request should follow the following format:
+```
+<employee_id>_<name> → main
+```
+In the Pull Request description, provide:
+
+- Employee ID and name.
+- Brief summary of the implementation.
+- Tasks completed.
+- Any assumptions or limitations, if applicable.
+- Confirmation that the implementation was tested locally.
+
+Before submitting the Pull Request, make sure that:
+
+- All required tasks have been completed.
+- The GraphQL server starts successfully.
+- The required queries and mutations execute successfully.
+- Relationships return the expected data.
+- The Pull Request is created from the correct assignment branch to the **main** branch.
